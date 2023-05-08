@@ -1,0 +1,33 @@
+name: Publish
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+jobs:
+  publish-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - name: Rebuild site
+        run: |
+          git clone https://github.com/TypeStrong/typedoc.git
+          cd typedoc
+          npm ci
+          npm run build
+          node bin/typedoc --gitRevision master
+          cd ..
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        with:
+          branch: gh-pages
+          folder: typedoc/docs
+          git-config-name: TypeDoc Bot
+          git-config-email: typedoc@gerritbirkeland.com
