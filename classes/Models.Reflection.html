@@ -36,7 +36,7 @@ contains a list of all children grouped and sorted for rendering.</p>
 <li><a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.SignatureReflection.html" class="tsd-signature-type tsd-kind-class">SignatureReflection</a></li>
 <li><a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.TypeParameterReflection.html" class="tsd-signature-type tsd-kind-class">TypeParameterReflection</a></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L247">src/lib/models/reflections/abstract.ts:247</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L251">src/lib/models/reflections/abstract.ts:251</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -81,6 +81,7 @@ contains a list of all children grouped and sorted for rendering.</p>
 <a href="Models.Reflection.html#toString" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>to<wbr/>String</span></a>
 <a href="Models.Reflection.html#toStringHierarchy" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>to<wbr/>String<wbr/>Hierarchy</span></a>
 <a href="Models.Reflection.html#traverse" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>traverse</span></a>
+<a href="Models.Reflection.html#visit" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>visit</span></a>
 </div></section></div></details></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Constructors</h2>
@@ -97,17 +98,17 @@ contains a list of all children grouped and sorted for rendering.</p>
 <li>
 <h5><span class="tsd-kind-parameter">kind</span>: <a href="../enums/Models.ReflectionKind-1.html" class="tsd-signature-type tsd-kind-enum">ReflectionKind</a></h5></li>
 <li>
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">parent</span>: <a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.Reflection.html" class="tsd-signature-type tsd-kind-class">Reflection</a></h5><code class="tsd-tag ts-flagOptional">Optional</code> </li></ul></div>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">parent</span>: <a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.Reflection.html" class="tsd-signature-type tsd-kind-class">Reflection</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.Reflection.html" class="tsd-signature-type tsd-kind-class">Reflection</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L318">src/lib/models/reflections/abstract.ts:318</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L322">src/lib/models/reflections/abstract.ts:322</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member"><a id="flags" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>flags</span><a href="#flags" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">flags</span><span class="tsd-signature-symbol">:</span> <a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.ReflectionFlags.html" class="tsd-signature-type tsd-kind-class">ReflectionFlags</a><span class="tsd-signature-symbol"> = ...</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L268">src/lib/models/reflections/abstract.ts:268</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L272">src/lib/models/reflections/abstract.ts:272</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="id" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>id</span><a href="#id" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">id</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
@@ -115,7 +116,7 @@ contains a list of all children grouped and sorted for rendering.</p>
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L256">src/lib/models/reflections/abstract.ts:256</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L260">src/lib/models/reflections/abstract.ts:260</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="kind" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>kind</span><a href="#kind" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">kind</span><span class="tsd-signature-symbol">:</span> <a href="../enums/Models.ReflectionKind-1.html" class="tsd-signature-type tsd-kind-enum">ReflectionKind</a></div>
@@ -123,7 +124,7 @@ contains a list of all children grouped and sorted for rendering.</p>
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L266">src/lib/models/reflections/abstract.ts:266</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L270">src/lib/models/reflections/abstract.ts:270</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="name" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>name</span><a href="#name" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">name</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
@@ -131,7 +132,7 @@ contains a list of all children grouped and sorted for rendering.</p>
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L261">src/lib/models/reflections/abstract.ts:261</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L265">src/lib/models/reflections/abstract.ts:265</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="variant" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <code class="tsd-tag ts-flagAbstract">Abstract</code> <span>variant</span><a href="#variant" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">variant</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">keyof </span><a href="../interfaces/Models.ReflectionVariant.html" class="tsd-signature-type tsd-kind-interface">ReflectionVariant</a></div>
@@ -139,7 +140,7 @@ contains a list of all children grouped and sorted for rendering.</p>
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L251">src/lib/models/reflections/abstract.ts:251</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L255">src/lib/models/reflections/abstract.ts:255</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="anchor" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>anchor</span><a href="#anchor" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">anchor</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">string</span></div>
@@ -148,7 +149,7 @@ TODO: Reflections shouldn&#39;t know anchors exist. Move this to a serializer.</
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L299">src/lib/models/reflections/abstract.ts:299</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L303">src/lib/models/reflections/abstract.ts:303</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="comment" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>comment</span><a href="#comment" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">comment</span><span class="tsd-signature-symbol">?:</span> <a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.Comment.html" class="tsd-signature-type tsd-kind-class">Comment</a></div>
@@ -156,7 +157,7 @@ TODO: Reflections shouldn&#39;t know anchors exist. Move this to a serializer.</
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L287">src/lib/models/reflections/abstract.ts:287</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L291">src/lib/models/reflections/abstract.ts:291</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="hasOwnDocument" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>has<wbr/>Own<wbr/>Document</span><a href="#hasOwnDocument" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">has<wbr/>Own<wbr/>Document</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span></div>
@@ -166,7 +167,7 @@ TODO: Reflections shouldn&#39;t know how they are rendered. Move this to the cor
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L307">src/lib/models/reflections/abstract.ts:307</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L311">src/lib/models/reflections/abstract.ts:311</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="parent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>parent</span><a href="#parent" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">parent</span><span class="tsd-signature-symbol">?:</span> <a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.Reflection.html" class="tsd-signature-type tsd-kind-class">Reflection</a></div>
@@ -174,7 +175,7 @@ TODO: Reflections shouldn&#39;t know how they are rendered. Move this to the cor
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L273">src/lib/models/reflections/abstract.ts:273</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L277">src/lib/models/reflections/abstract.ts:277</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="url" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>url</span><a href="#url" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">url</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">string</span></div>
@@ -183,7 +184,7 @@ TODO: Reflections shouldn&#39;t know urls exist. Move this to a serializer.</p>
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L293">src/lib/models/reflections/abstract.ts:293</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L297">src/lib/models/reflections/abstract.ts:297</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Accessors</h2>
 <section class="tsd-panel tsd-member"><a id="project" class="tsd-anchor"></a>
@@ -193,7 +194,7 @@ TODO: Reflections shouldn&#39;t know urls exist. Move this to a serializer.</p>
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.ProjectReflection.html" class="tsd-signature-type tsd-kind-class">ProjectReflection</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L275">src/lib/models/reflections/abstract.ts:275</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L279">src/lib/models/reflections/abstract.ts:279</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member"><a id="fromObject" class="tsd-anchor"></a>
@@ -210,7 +211,7 @@ TODO: Reflections shouldn&#39;t know urls exist. Move this to a serializer.</p>
 <h5><span class="tsd-kind-parameter">obj</span>: <a href="../modules/JSONOutput.html" class="tsd-signature-type tsd-kind-namespace">JSONOutput</a><span class="tsd-signature-symbol">.</span><a href="../interfaces/JSONOutput.Reflection.html" class="tsd-signature-type tsd-kind-interface">Reflection</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L534">src/lib/models/reflections/abstract.ts:534</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L556">src/lib/models/reflections/abstract.ts:556</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getAlias" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Alias</span><a href="#getAlias" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -221,7 +222,7 @@ TODO: Reflections shouldn&#39;t know urls exist. Move this to a serializer.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L388">src/lib/models/reflections/abstract.ts:388</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L392">src/lib/models/reflections/abstract.ts:392</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getChildByName" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Child<wbr/>By<wbr/>Name</span><a href="#getChildByName" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -238,7 +239,7 @@ TODO: Reflections shouldn&#39;t know urls exist. Move this to a serializer.</p>
 
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L440">src/lib/models/reflections/abstract.ts:440</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L444">src/lib/models/reflections/abstract.ts:444</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getFriendlyFullName" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Friendly<wbr/>Full<wbr/>Name</span><a href="#getFriendlyFullName" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -250,7 +251,7 @@ introducing ambiguity in the name.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L359">src/lib/models/reflections/abstract.ts:359</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L363">src/lib/models/reflections/abstract.ts:363</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getFullName" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Full<wbr/>Name</span><a href="#getFullName" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -266,12 +267,13 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <li>
 <h5><span class="tsd-kind-parameter">separator</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;.&quot;</span></h5>
 <div class="tsd-comment tsd-typography"><p>Separator used to join the names of the reflections.</p>
-</div></li></ul></div>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4><p>The full name of this reflection.</p>
 
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L347">src/lib/models/reflections/abstract.ts:347</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L351">src/lib/models/reflections/abstract.ts:351</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="hasComment" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>has<wbr/>Comment</span><a href="#hasComment" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -283,7 +285,7 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L426">src/lib/models/reflections/abstract.ts:426</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L430">src/lib/models/reflections/abstract.ts:430</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="hasGetterOrSetter" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>has<wbr/>Getter<wbr/>Or<wbr/>Setter</span><a href="#hasGetterOrSetter" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -291,7 +293,7 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L430">src/lib/models/reflections/abstract.ts:430</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L434">src/lib/models/reflections/abstract.ts:434</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="isDeclaration" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Declaration</span><a href="#isDeclaration" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -299,7 +301,7 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <span class="tsd-kind-parameter">this</span><span class="tsd-signature-symbol"> is </span><a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.DeclarationReflection.html" class="tsd-signature-type tsd-kind-class">DeclarationReflection</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L468">src/lib/models/reflections/abstract.ts:468</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L472">src/lib/models/reflections/abstract.ts:472</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="isDeprecated" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Deprecated</span><a href="#isDeprecated" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -310,7 +312,7 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L475">src/lib/models/reflections/abstract.ts:475</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L479">src/lib/models/reflections/abstract.ts:479</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="isProject" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Project</span><a href="#isProject" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -321,7 +323,7 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <h4 class="tsd-returns-title">Returns <span class="tsd-kind-parameter">this</span><span class="tsd-signature-symbol"> is </span><a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.ProjectReflection.html" class="tsd-signature-type tsd-kind-class">ProjectReflection</a></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L465">src/lib/models/reflections/abstract.ts:465</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L469">src/lib/models/reflections/abstract.ts:469</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="kindOf" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>kind<wbr/>Of</span><a href="#kindOf" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -337,7 +339,7 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L333">src/lib/models/reflections/abstract.ts:333</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L337">src/lib/models/reflections/abstract.ts:337</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="setFlag" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>Flag</span><a href="#setFlag" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -355,7 +357,7 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L381">src/lib/models/reflections/abstract.ts:381</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L385">src/lib/models/reflections/abstract.ts:385</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="toObject" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>to<wbr/>Object</span><a href="#toObject" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -368,7 +370,7 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <h5><span class="tsd-kind-parameter">serializer</span>: <a href="Serializer.html" class="tsd-signature-type tsd-kind-class">Serializer</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../modules/JSONOutput.html" class="tsd-signature-type tsd-kind-namespace">JSONOutput</a><span class="tsd-signature-symbol">.</span><a href="../interfaces/JSONOutput.Reflection.html" class="tsd-signature-type tsd-kind-interface">Reflection</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L520">src/lib/models/reflections/abstract.ts:520</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L542">src/lib/models/reflections/abstract.ts:542</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="toString" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>to<wbr/>String</span><a href="#toString" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -379,7 +381,7 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L499">src/lib/models/reflections/abstract.ts:499</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L521">src/lib/models/reflections/abstract.ts:521</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="toStringHierarchy" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>to<wbr/>String<wbr/>Hierarchy</span><a href="#toStringHierarchy" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -393,11 +395,12 @@ intended to be displayed to the user for them to fix, prefer <a href="Models.Ref
 <li>
 <h5><span class="tsd-kind-parameter">indent</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;&quot;</span></h5>
 <div class="tsd-comment tsd-typography"><p>Used internally to indent child reflections.</p>
-</div></li></ul></div>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L508">src/lib/models/reflections/abstract.ts:508</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L530">src/lib/models/reflections/abstract.ts:530</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="traverse" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagAbstract">Abstract</code> <span>traverse</span><a href="#traverse" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -415,11 +418,25 @@ attached to this reflection.</p>
 <li>
 <h5><span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/Models.TraverseCallback.html" class="tsd-signature-type tsd-kind-interface">TraverseCallback</a></h5>
 <div class="tsd-comment tsd-typography"><p>The callback function that should be applied for each child reflection.</p>
-</div></li></ul></div>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L494">src/lib/models/reflections/abstract.ts:494</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L512">src/lib/models/reflections/abstract.ts:512</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="visit" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>visit</span><a href="#visit" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="visit.visit-1"><span class="tsd-kind-call-signature">visit</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">visitor</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#visit.visit-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">visitor</span>: <a href="../types/Models.ReflectionVisitor.html" class="tsd-signature-type tsd-kind-type-alias">ReflectionVisitor</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/master/src/lib/models/reflections/abstract.ts#L514">src/lib/models/reflections/abstract.ts:514</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -465,7 +482,8 @@ attached to this reflection.</p>
 <li><a href="#toObject" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>to<wbr/>Object</span></a></li>
 <li><a href="#toString" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>to<wbr/>String</span></a></li>
 <li><a href="#toStringHierarchy" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>to<wbr/>String<wbr/>Hierarchy</span></a></li>
-<li><a href="#traverse" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>traverse</span></a></li></ul></div></details></div>
+<li><a href="#traverse" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>traverse</span></a></li>
+<li><a href="#visit" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>visit</span></a></li></ul></div></details></div>
 <div class="site-menu">
 <nav class="tsd-navigation"><a href="../modules.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-4"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)"></path></g></svg><span>typedoc -<wbr/> v0.25.0</span></a>
 <ul class="tsd-small-nested-navigation">
@@ -502,7 +520,8 @@ attached to this reflection.</p>
 <li><a href="../types/Configuration.KeyToDeclaration.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2097152"></use></svg><span>Key<wbr/>To<wbr/>Declaration</span></a></li>
 <li><a href="../types/Configuration.ManuallyValidatedOption.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2097152"></use></svg><span>Manually<wbr/>Validated<wbr/>Option</span></a></li>
 <li><a href="../types/Configuration.ValidationOptions.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2097152"></use></svg><span>Validation<wbr/>Options</span></a></li>
-<li><a href="../functions/Configuration.BindOption.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-64"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-function)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.39 16V7.24H14.55V8.224H10.446V11.128H14.238V12.112H10.47V16H9.39Z" fill="var(--color-text)"></path></g></svg><span>Bind<wbr/>Option</span></a></li></ul></div></details></li>
+<li><a href="../functions/Configuration.BindOption.html" class="deprecated"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-64"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-function)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.39 16V7.24H14.55V8.224H10.446V11.128H14.238V12.112H10.47V16H9.39Z" fill="var(--color-text)"></path></g></svg><span>Bind<wbr/>Option</span></a></li>
+<li><a href="../functions/Configuration.Option.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Option</span></a></li></ul></div></details></li>
 <li>
 <details class="tsd-index-accordion" data-key="JSONOutput"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="#icon-chevronDown"></use></svg><a href="../modules/JSONOutput.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>JSONOutput</span></a></summary>
 <div class="tsd-accordion-details">
@@ -671,6 +690,7 @@ attached to this reflection.</p>
 <li><a href="../interfaces/Models.ReflectionVariant.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Reflection<wbr/>Variant</span></a></li>
 <li><a href="../interfaces/Models.TraverseCallback.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg><span>Traverse<wbr/>Callback</span></a></li>
 <li><a href="../types/Models.ReflectionSymbolIdString.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2097152"></use></svg><span>Reflection<wbr/>Symbol<wbr/>Id<wbr/>String</span></a></li>
+<li><a href="../types/Models.ReflectionVisitor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2097152"></use></svg><span>Reflection<wbr/>Visitor</span></a></li>
 <li><a href="../types/Models.TypeVisitor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2097152"></use></svg><span>Type<wbr/>Visitor</span></a></li>
 <li><a href="../functions/Models.makeRecursiveVisitor.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>make<wbr/>Recursive<wbr/>Visitor</span></a></li>
 <li><a href="../functions/Models.splitUnquotedString.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>split<wbr/>Unquoted<wbr/>String</span></a></li></ul></div></details></li></ul></div></details></li>
