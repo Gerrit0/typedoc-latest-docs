@@ -7,18 +7,18 @@ the output.</p>
 <ul>
 <li><p><a href="Renderer.html#EVENT_BEGIN" class="tsd-kind-property">Renderer.EVENT_BEGIN</a><br>
 Triggered before the renderer starts rendering a project. The listener receives
-an instance of <a href="RendererEvent.html" class="tsd-kind-class">RendererEvent</a>. By calling <a href="Event.html#preventDefault" class="tsd-kind-method">RendererEvent.preventDefault</a> the entire
+an instance of <a href="RendererEvent.html" class="tsd-kind-class">RendererEvent</a>. By calling <a href="RendererEvent.html#preventDefault" class="tsd-kind-method">RendererEvent.preventDefault</a> the entire
 render process can be canceled.</p>
 <ul>
 <li><p><a href="Renderer.html#EVENT_BEGIN_PAGE" class="tsd-kind-property">Renderer.EVENT_BEGIN_PAGE</a><br>
 Triggered before a document will be rendered. The listener receives an instance of
-<a href="PageEvent.html" class="tsd-kind-class">PageEvent</a>. By calling <a href="Event.html#preventDefault" class="tsd-kind-method">PageEvent.preventDefault</a> the generation of the
+<a href="PageEvent.html" class="tsd-kind-class">PageEvent</a>. By calling <a href="PageEvent.html#preventDefault" class="tsd-kind-method">PageEvent.preventDefault</a> the generation of the
 document can be canceled.</p>
 </li>
 <li><p><a href="Renderer.html#EVENT_END_PAGE" class="tsd-kind-property">Renderer.EVENT_END_PAGE</a><br>
 Triggered after a document has been rendered, just before it is written to disc. The
 listener receives an instance of <a href="PageEvent.html" class="tsd-kind-class">PageEvent</a>. When calling
-<a href="Event.html#preventDefault" class="tsd-kind-method">PageEvent.preventDefault</a> the the document will not be saved to disc.</p>
+<a href="PageEvent.html#preventDefault" class="tsd-kind-method">PageEvent.preventDefault</a> the the document will not be saved to disc.</p>
 </li>
 </ul>
 </li>
