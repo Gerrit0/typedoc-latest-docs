@@ -21263,7 +21263,7 @@
 													},
 													{
 														"type": "literal",
-														"value": "favicon_must_be_ico_or_svg"
+														"value": "favicon_must_have_one_of_the_following_extensions_0"
 													},
 													{
 														"type": "literal",
@@ -22970,9 +22970,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 381,
+									"line": 380,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L381"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L380"
 								}
 							],
 							"type": {
@@ -23007,9 +23007,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 376,
+									"line": 375,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L376"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L375"
 								}
 							],
 							"type": {
@@ -23040,9 +23040,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 382,
+									"line": 381,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L382"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L381"
 								}
 							],
 							"type": {
@@ -23691,7 +23691,7 @@
 						},
 						{
 							"id": 5264,
-							"name": "favicon_must_be_ico_or_svg",
+							"name": "favicon_must_have_one_of_the_following_extensions_0",
 							"variant": "declaration",
 							"kind": 1024,
 							"flags": {
@@ -23701,19 +23701,25 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 391,
+									"line": 390,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L391"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L390"
 								}
 							],
 							"type": {
-								"type": "tuple"
+								"type": "tuple",
+								"elements": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								]
 							},
-							"defaultValue": "\"Favicon file must be either a .ico or .svg\"",
+							"defaultValue": "\"Favicon must have on of the following extensions: {0}\"",
 							"inheritedFrom": {
 								"type": "reference",
 								"target": -1,
-								"name": "BuiltinTranslatableStringArgs.favicon_must_be_ico_or_svg"
+								"name": "BuiltinTranslatableStringArgs.favicon_must_have_one_of_the_following_extensions_0"
 							}
 						},
 						{
@@ -23761,9 +23767,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 374,
+									"line": 373,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L374"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L373"
 								}
 							],
 							"type": {
@@ -24099,9 +24105,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 378,
+									"line": 377,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L378"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L377"
 								}
 							],
 							"type": {
@@ -24322,9 +24328,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 321,
+									"line": 320,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L321"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L320"
 								}
 							],
 							"type": {
@@ -24349,9 +24355,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 287,
+									"line": 286,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L287"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L286"
 								}
 							],
 							"type": {
@@ -24376,9 +24382,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 327,
+									"line": 326,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L327"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L326"
 								}
 							],
 							"type": {
@@ -24403,9 +24409,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 333,
+									"line": 332,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L333"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L332"
 								}
 							],
 							"type": {
@@ -24430,9 +24436,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 292,
+									"line": 291,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L292"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L291"
 								}
 							],
 							"type": {
@@ -24484,9 +24490,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 316,
+									"line": 315,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L316"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L315"
 								}
 							],
 							"type": {
@@ -24565,9 +24571,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 284,
+									"line": 283,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L284"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L283"
 								}
 							],
 							"type": {
@@ -24592,9 +24598,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 285,
+									"line": 284,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L285"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L284"
 								}
 							],
 							"type": {
@@ -24673,9 +24679,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 331,
+									"line": 330,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L331"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L330"
 								}
 							],
 							"type": {
@@ -25167,7 +25173,7 @@
 							"type": {
 								"type": "tuple"
 							},
-							"defaultValue": "\"Path to a favicon.ico or favicon.svg to include as the site icon\"",
+							"defaultValue": "\"Path to favicon to include as the site icon\"",
 							"inheritedFrom": {
 								"type": "reference",
 								"target": -1,
@@ -25186,9 +25192,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 277,
+									"line": 276,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L277"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L276"
 								}
 							],
 							"type": {
@@ -25267,9 +25273,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 335,
+									"line": 334,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L335"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L334"
 								}
 							],
 							"type": {
@@ -25294,9 +25300,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 329,
+									"line": 328,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L329"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L328"
 								}
 							],
 							"type": {
@@ -25321,9 +25327,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 300,
+									"line": 299,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L300"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L299"
 								}
 							],
 							"type": {
@@ -25348,9 +25354,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 347,
+									"line": 346,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L347"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L346"
 								}
 							],
 							"type": {
@@ -25375,9 +25381,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 283,
+									"line": 282,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L283"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L282"
 								}
 							],
 							"type": {
@@ -25429,9 +25435,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 279,
+									"line": 278,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L279"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L278"
 								}
 							],
 							"type": {
@@ -25483,9 +25489,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 304,
+									"line": 303,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L304"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L303"
 								}
 							],
 							"type": {
@@ -25537,9 +25543,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 323,
+									"line": 322,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L323"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L322"
 								}
 							],
 							"type": {
@@ -25564,9 +25570,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 357,
+									"line": 356,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L357"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L356"
 								}
 							],
 							"type": {
@@ -25591,9 +25597,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 314,
+									"line": 313,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L314"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L313"
 								}
 							],
 							"type": {
@@ -25645,9 +25651,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 340,
+									"line": 339,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L340"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L339"
 								}
 							],
 							"type": {
@@ -25753,9 +25759,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 352,
+									"line": 351,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L352"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L351"
 								}
 							],
 							"type": {
@@ -25834,9 +25840,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 275,
+									"line": 274,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L275"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L274"
 								}
 							],
 							"type": {
@@ -25888,9 +25894,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 325,
+									"line": 324,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L325"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L324"
 								}
 							],
 							"type": {
@@ -25942,9 +25948,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 303,
+									"line": 302,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L303"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L302"
 								}
 							],
 							"type": {
@@ -25969,9 +25975,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 298,
+									"line": 297,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L298"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L297"
 								}
 							],
 							"type": {
@@ -25996,9 +26002,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 296,
+									"line": 295,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L296"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L295"
 								}
 							],
 							"type": {
@@ -26131,9 +26137,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 350,
+									"line": 349,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L350"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L349"
 								}
 							],
 							"type": {
@@ -26158,9 +26164,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 319,
+									"line": 318,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L319"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L318"
 								}
 							],
 							"type": {
@@ -26185,9 +26191,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 343,
+									"line": 342,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L343"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L342"
 								}
 							],
 							"type": {
@@ -26293,9 +26299,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 359,
+									"line": 358,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L359"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L358"
 								}
 							],
 							"type": {
@@ -26320,9 +26326,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 308,
+									"line": 307,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L308"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L307"
 								}
 							],
 							"type": {
@@ -26347,9 +26353,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 310,
+									"line": 309,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L310"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L309"
 								}
 							],
 							"type": {
@@ -26374,9 +26380,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 288,
+									"line": 287,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L288"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L287"
 								}
 							],
 							"type": {
@@ -26401,9 +26407,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 290,
+									"line": 289,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L290"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L289"
 								}
 							],
 							"type": {
@@ -26428,9 +26434,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 349,
+									"line": 348,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L349"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L348"
 								}
 							],
 							"type": {
@@ -26455,9 +26461,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 297,
+									"line": 296,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L297"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L296"
 								}
 							],
 							"type": {
@@ -26482,9 +26488,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 345,
+									"line": 344,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L345"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L344"
 								}
 							],
 							"type": {
@@ -26509,9 +26515,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 301,
+									"line": 300,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L301"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L300"
 								}
 							],
 							"type": {
@@ -26536,9 +26542,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 337,
+									"line": 336,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L337"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L336"
 								}
 							],
 							"type": {
@@ -26563,9 +26569,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 338,
+									"line": 337,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L338"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L337"
 								}
 							],
 							"type": {
@@ -26590,9 +26596,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 273,
+									"line": 272,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L273"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L272"
 								}
 							],
 							"type": {
@@ -26671,9 +26677,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 294,
+									"line": 293,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L294"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L293"
 								}
 							],
 							"type": {
@@ -26698,9 +26704,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 355,
+									"line": 354,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L355"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L354"
 								}
 							],
 							"type": {
@@ -26725,9 +26731,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 353,
+									"line": 352,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L353"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L352"
 								}
 							],
 							"type": {
@@ -26806,9 +26812,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 312,
+									"line": 311,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L312"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L311"
 								}
 							],
 							"type": {
@@ -26833,9 +26839,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 281,
+									"line": 280,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L281"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L280"
 								}
 							],
 							"type": {
@@ -26860,9 +26866,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 317,
+									"line": 316,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L317"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L316"
 								}
 							],
 							"type": {
@@ -26887,9 +26893,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 361,
+									"line": 360,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L361"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L360"
 								}
 							],
 							"type": {
@@ -26914,9 +26920,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 348,
+									"line": 347,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L348"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L347"
 								}
 							],
 							"type": {
@@ -26941,9 +26947,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 306,
+									"line": 305,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L306"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L305"
 								}
 							],
 							"type": {
@@ -26968,9 +26974,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 342,
+									"line": 341,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L342"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L341"
 								}
 							],
 							"type": {
@@ -26995,9 +27001,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 384,
+									"line": 383,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L384"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L383"
 								}
 							],
 							"type": {
@@ -27032,9 +27038,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 385,
+									"line": 384,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L385"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L384"
 								}
 							],
 							"type": {
@@ -27065,9 +27071,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 387,
+									"line": 386,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L387"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L386"
 								}
 							],
 							"type": {
@@ -28800,9 +28806,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 379,
+									"line": 378,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L379"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L378"
 								}
 							],
 							"type": {
@@ -29288,9 +29294,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 368,
+									"line": 367,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L368"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L367"
 								}
 							],
 							"type": {
@@ -29329,9 +29335,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 369,
+									"line": 368,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L369"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L368"
 								}
 							],
 							"type": {
@@ -29366,9 +29372,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 371,
+									"line": 370,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L371"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L370"
 								}
 							],
 							"type": {
@@ -29436,9 +29442,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 373,
+									"line": 372,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L373"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L372"
 								}
 							],
 							"type": {
@@ -32800,9 +32806,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 367,
+									"line": 366,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L367"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L366"
 								}
 							],
 							"type": {
@@ -32998,9 +33004,9 @@
 							"sources": [
 								{
 									"fileName": "lib/internationalization/locales/en.cts",
-									"line": 389,
+									"line": 388,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L389"
+									"url": "https://github.com/TypeStrong/typedoc/blob/master/src/lib/internationalization/locales/en.cts#L388"
 								}
 							],
 							"type": {
@@ -163025,7 +163031,7 @@
 		},
 		"5264": {
 			"sourceFileName": "src/lib/internationalization/locales/en.cts",
-			"qualifiedName": "favicon_must_be_ico_or_svg"
+			"qualifiedName": "favicon_must_have_one_of_the_following_extensions_0"
 		},
 		"5265": {
 			"sourceFileName": "src/lib/internationalization/locales/en.cts",
